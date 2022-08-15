@@ -1,0 +1,32 @@
+h1 {
+  margin: 10px 40px;
+}
+
+.letter-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 40px;
+}
+
+.letter-icon {
+  border: 1px solid black;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 80px;
+  background-color: rgb(99, 99, 232);
+  color: white;
+  font-size: 20px;
+}
+
+.letter-icon p {
+  padding: 0;
+  margin: 0;
+}
+
+.form-word {
+  margin: 40px;
+  max-width: 600px;
+}

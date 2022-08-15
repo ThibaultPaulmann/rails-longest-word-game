@@ -13,3 +13,10 @@
  *= require_tree .
  *= require_self
  */
+
+@import '/app/assets/stylesheets/new.css';
+@import '/app/assets/stylesheets/score.css';
+
+body {
+  width: 100vw;
+}

@@ -1,0 +1,8 @@
+<h1>Result</h1>
+<% if @result[:message].start_with?("Invalid") %>
+  <p>Sorry but <strong><%= @word %></strong> is <%= @result[:message] %></p>
+  <p>The grid was: <%= @grid.join(", ") %></p>
+<% else %>
+  <p><strong>Congratulations!</strong> <%= @word %> is a valid english word</p>
+<% end %>
+<%= link_to "Play again", new_path %>
